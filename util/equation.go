@@ -1,7 +1,8 @@
 package util
 
-type equation struct{
-	a float64
-	fix string
-	b float64
+// is a representation of an equation.
+type Equation struct{
+	A float64
+	Fix string
+	B float64
 }
