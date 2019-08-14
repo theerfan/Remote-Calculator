@@ -4,7 +4,6 @@ import (
 	"github.com/theerfan/Remote-Calculator/networking/client/http"
 )
 
-func main() 
-{
+func main() {
 	http.RunClient()
 }

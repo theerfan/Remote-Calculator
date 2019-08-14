@@ -31,10 +31,10 @@ func sendRequest(client *http.Client, body []byte) {
     }
     defer resp.Body.Close()
 
-    fmt.Println("response Status:", resp.Status)
-    fmt.Println("response Headers:", resp.Header)
+    // fmt.Println("response Status:", resp.Status)
+    // fmt.Println("response Headers:", resp.Header)
     resBody, _ := ioutil.ReadAll(resp.Body)
-    fmt.Println("response Body:", string(resBody))
+    fmt.Println("The Answer is:", string(resBody))
 }
 
 func extractEquation(input string) []byte {
